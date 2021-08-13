@@ -7,6 +7,11 @@ plugins:
 baseurl: /rjuall
 url: https://rjuall.github.io
 
+collections:
+  haskell:
+    output: true
+    permalink: /:name
+
 defaults:
   -
     scope:
