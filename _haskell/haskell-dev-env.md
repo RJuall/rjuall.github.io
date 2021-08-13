@@ -1,5 +1,4 @@
 ---
-layout: haskell
 ---
 
 # Installing a Basic Haskell Development Environment
