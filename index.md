@@ -1,5 +1,4 @@
 ---
-layout: default
 ---
 
 # RJuall's Github Pages
