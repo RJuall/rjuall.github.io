@@ -11,23 +11,23 @@ description: CSCI 335 - Functional Programming
 - Navigate to [https://www.haskell.org/ghcup/](https://www.haskell.org/ghcup/)
 - Copy the Terminal command displayed 
   - The displayed command changes based on OS used to access the page.
-- (Windows) Execute the command in Powershell
+- (Windows) Execute the command in Powershell ([IMAGE](./assets/img/PSInstallGcup.png))
     - Accept the default answers to the questions that come up:
       - `Mys2` toolchain should be installed.
       - `Haskell Language Server` should not be installed.
       - `Stack` should not be installed.
-- (*nix) Execute the command in Terminal
+- (*nix) Execute the command in Terminal ([IMAGE](./assets/img/NexChcupCmd.png))
     - If the required Build tools are not already installed, the command will not work.
     - (Mac) The command will trigger install of Build tools, which should be installed. The command will then need to be re-run.
-    - (Linux) The tools `curl gcc make` need to be installed prior to running the `ghcup` installation command.
-    - `Haskell Language Server` should not be installed.
-    - `Stack` should not be installed.
+    - (Linux) The tools `curl gcc make` need to be installed prior to running the `ghcup` installation command. ([IMAGE](./assets/img/NixTerminalInstallCurlMakeGcc.png))
+    - `Haskell Language Server` should not be installed. ([IMAGE](./assets/img/NixGhcupQuestions.png))
+    - `Stack` should not be installed. ([IMAGE](./assets/img/NixGhcupQuestions.png))
 - **Pay attention to where the Haskell files are being installed!**
 
 ## Checking Binary Installation
 
 - Close and restart Powershell or Terminal
-- Execute the following commands:
+- Execute the following commands: ([IMAGE](./assets/img/PSCheckingInstall.png))
   - Type and execute `ghc --version`.
   - Type and execute `cabal --version`.
   - Type and execute `ghci`.
@@ -39,7 +39,7 @@ description: CSCI 335 - Functional Programming
 ## Installing Visual Studio Code
 
 - Navigate to [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
-- Download and install the appropriate VSCode package
+- Download and install the appropriate VSCode package ([IMAGE](./assets/img/DownloadVSCode.png))
 - Start Visual Studio Code
 
 ## Installing VSCode Extensions
@@ -67,7 +67,7 @@ main = putStrLn "Hello World"
 # Notes
 
 - The Terminal in VSCode is the same as any other system Terminal and can run `ghc`, `cabal`, or `ghci`
-  - The VSCode Terminal can be accessed through View -> 'Terminal' or Terminal -> 'New Terminal'.
+  - The VSCode Terminal can be accessed through View -> 'Terminal' or Terminal -> 'New Terminal'. ([IMAGE](./assets/img/VSCodeAccessTerminal.png))
   - The default location for a new VSCode terminal is the Open Folder or the 'Home' folder if no folder is open in VSCode.
 
 ## Optional
