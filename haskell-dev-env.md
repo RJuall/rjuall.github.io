@@ -49,12 +49,14 @@
 
 - Create a new file in VSCode (File -> 'New File') and save it as `test.hs`
 - Type:
-  - ```
-    module Test where
 
-    main :: IO ()
-    main = putStrLn "Hello World"
-    ```
+```haskell
+module Test where
+
+main :: IO ()
+main = putStrLn "Hello World"
+```
+
 - Right Click/Context Click and select 'Run Code'
 - A Terminal should appear and execute the above code with a return of "Hello World"
 
