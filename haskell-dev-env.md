@@ -4,20 +4,21 @@
 
 ### GHCUP
 
-    - Navigate to [https://www.haskell.org/ghcup/](https://www.haskell.org/ghcup/)
-    - Copy the Terminal command displayed (the displayed command changes based on OS used to access the page)
-    - (Windows) Execute the command in Powershell
-      - Accept the default answers to the questions that come up:
-        - `Mys2` toolchain should be installed
-        - `Haskell Language Server` should not be installed
-        - `Stack` should not be installed
-    - (*nix) Execute the command in Terminal
-      - If the required Build tools are not already installed, the command will not work
-      - (Mac) The command will trigger install of Build tools, which should be installed. The command will then need to be re-run
-      - (Linux) The tools `curl gcc make` need to be installed prior to running the `ghcup` installation command
-      - `Haskell Language Server` should not be installed
-      - `Stack` should not be installed
-    - **Pay attention to where the Haskell files are being installed!**
+- Navigate to [https://www.haskell.org/ghcup/](https://www.haskell.org/ghcup/)
+- Copy the Terminal command displayed (the displayed command changes based on OS used to access the page)
+- (Windows) Execute the command in Powershell
+    - Accept the default answers to the questions that come up:
+    - `Mys2` toolchain should be installed
+    - `Haskell Language Server` should not be installed
+    - `Stack` should not be installed
+- (*nix) Execute the command in Terminal
+    - If the required Build tools are not already installed, the command will not work
+    - (Mac) The command will trigger install of Build tools, which should be installed. The command will then need to be re-run
+    - (Linux) The tools `curl gcc make` need to be installed prior to running the `ghcup` installation command
+    - `Haskell Language Server` should not be installed
+    - `Stack` should not be installed
+
+- **Pay attention to where the Haskell files are being installed!**
 
 ## Checking Binary Installation
 
