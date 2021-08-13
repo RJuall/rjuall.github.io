@@ -1,4 +1,5 @@
 ---
+layout: default
 ---
 
 # Installing a Basic Haskell Development Environment
