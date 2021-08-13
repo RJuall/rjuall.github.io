@@ -1,5 +1,4 @@
 ---
-theme: jekyll-theme-slate
 title: Haskell Development Environment
 description: CSCI 335 - Functional Programming
 ---
@@ -46,8 +45,8 @@ description: CSCI 335 - Functional Programming
 
 - Go to the 'Extensions' view of VSCode
   - Please see [https://code.visualstudio.com/docs/editor/extension-marketplace](https://code.visualstudio.com/docs/editor/extension-marketplace) if there are questions about VSCode extension management.
-- Search for 'Haskell Syntax Highlighting' and Install this extension ([IMAGE](./img/InstallSyntaxHighlighting.png))
-- Search for 'Code Runner' and Install this extension ([IMAGE](./img/InstallCodeRunnerVSCode.png))
+- Search for 'Haskell Syntax Highlighting' and Install this extension ([IMAGE](./assets/img/InstallSyntaxHighlighting.png))
+- Search for 'Code Runner' and Install this extension ([IMAGE](./assets/img/InstallCodeRunnerVSCode.png))
 
 ## The Final Checks
 
