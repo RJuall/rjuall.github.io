@@ -4,3 +4,12 @@ markdown: kramdown
 theme: null
 baseurl: /rjuall
 url: https://rjuall.github.io
+
+defaults:
+  -
+    scope:
+      type: haskell
+      path: _haskell
+    values:
+      is_haskell: true
+      layout: haskell
