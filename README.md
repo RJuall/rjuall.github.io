@@ -1,6 +1,3 @@
----
----
-
 # RJuall's Github Pages
 
 ## [rjuall.github.io](./index.md)
