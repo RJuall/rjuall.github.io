@@ -1,2 +1,6 @@
 title: RJuall's GitHub Pages
 description: Convenient Web Hosting is Convenient
+markdown: kramdown
+theme: null
+baseurl: /rjuall
+url: https://rjuall.github.io
