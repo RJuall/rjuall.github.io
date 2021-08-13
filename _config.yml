@@ -19,4 +19,4 @@ defaults:
       path: _haskell
     values:
       is_haskell: true
-      layout: haskell
+      layout: default
