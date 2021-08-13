@@ -8,20 +8,21 @@ description: CSCI 335  - Functional Programming
 
 ## Installing Haskell Binaries
 
-- Navigate to [https://www.haskell.org/ghcup/](https://www.haskell.org/ghcup/)
-- Copy the Terminal command displayed 
+- Navigate to [https://www.haskell.org/ghcup/](https://www.haskell.org/ghcup/) 
+- Copy the Terminal command displayed ([IMAGE](./assets/img/GhcupPage.png))
   - The displayed command changes based on OS used to access the page.
 - (Windows) Execute the command in Powershell ([IMAGE](./assets/img/PSInstallGcup.png))
     - Accept the default answers to the questions that come up:
       - `Mys2` toolchain should be installed.
       - `Haskell Language Server` should not be installed.
       - `Stack` should not be installed.
-- (*nix) Execute the command in Terminal ([IMAGE](./assets/img/NexChcupCmd.png))
+- (*nix) Execute the command in Terminal ([IMAGE](./assets/img/NixGhcupCmd.png))
     - If the required Build tools are not already installed, the command will not work.
     - (Mac) The command will trigger install of Build tools, which should be installed. The command will then need to be re-run.
     - (Linux) The tools `curl gcc make` need to be installed prior to running the `ghcup` installation command. ([IMAGE](./assets/img/NixTerminalInstallCurlMakeGcc.png))
-    - `Haskell Language Server` should not be installed. ([IMAGE](./assets/img/NixGhcupQuestions.png))
-    - `Stack` should not be installed. ([IMAGE](./assets/img/NixGhcupQuestions.png))
+    - **IMPORTANT** Allow `ghc` to add to the PATH variable. ([IMAGE](./assets/img/NixGhcupQuestions.png))
+    - `Haskell Language Server` should not be installed. 
+    - `Stack` should not be installed. 
 - **Pay attention to where the Haskell files are being installed!**
 
 ## Checking Binary Installation
@@ -33,7 +34,7 @@ description: CSCI 335  - Functional Programming
   - Type and execute `ghci`.
     - Try executing arithmetic in `ghci` (i.e. type `2 + 3` at the `ghci` prompt).
     - Type `:quit` at the `ghci` prompt to exit `ghci`.
-- If the preceding commands functioned, skip to the next section
+- If the preceding commands functioned, skip to the next section ([IMAGE](./assets/img/DevEnvInstallSuccess.png))
 - If the preceding commands did not function and `ghcup` succesfully installed, the binaries will have to be added to the PATH
 
 ## Installing Visual Studio Code
