@@ -1,3 +1,7 @@
+---
+title: Haskell Development Environment
+description: CSCI 335 - Functional Programming
+---
 # Installing a Basic Haskell Development Environment
 
 ## Installing Haskell Binaries
