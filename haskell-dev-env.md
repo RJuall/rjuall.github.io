@@ -1,9 +1,4 @@
 ---
-
-title: "Haskell Development Environment"
-description: "CSCI 335 - Functional Programming"
-permalink: haskell-dev-env.html
-
 ---
 
 # Installing a Basic Haskell Development Environment
