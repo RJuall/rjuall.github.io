@@ -22,30 +22,30 @@
 
 ## Checking Binary Installation
 
-    - Close and restart Powershell or Terminal
-    - Type and execute `ghc --version`
-    - Type and execute `cabal --version`
-    - Type and execute `ghci`
-      - Try executing arithmetic in `ghci`
-      - Type `:quit` to exit `ghci`
-    - If the preceding commands functioned, skip to the next section
-    - If the preceding commands did not function and `ghcup` succesfully installed, the binaries will have to be added to the PATH
+- Close and restart Powershell or Terminal
+- Type and execute `ghc --version`
+- Type and execute `cabal --version`
+- Type and execute `ghci`
+  - Try executing arithmetic in `ghci`
+  - Type `:quit` to exit `ghci`
+- If the preceding commands functioned, skip to the next section
+- If the preceding commands did not function and `ghcup` succesfully installed, the binaries will have to be added to the PATH
 
 ## Installing Visual Studio Code
 
-    - Navigate to [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
-    - Download and install the appropriate VSCode package
+- Navigate to [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
+- Download and install the appropriate VSCode package
 
 ## Installing VSCode Extensions
 
-    - Lorem
+- Lorem
 
 ## The Final Checks
 
-    - Lorem
+- Lorem
 
 ## Optional
 
-    - Lorem
+- Lorem
 
 ![Install Haskell Syntax Highlighting in VSCode](./img/InstallSyntaxHighlighting.png)
