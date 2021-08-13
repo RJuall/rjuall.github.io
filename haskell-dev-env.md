@@ -81,5 +81,3 @@ main = putStrLn "Hello World"
   - The extension requires the `hlint` Haskell package to be installed.
   - `hlint` can be installed through the `cabal` command.
   - The `hlint` binary may have to be manually added to the PATH for the extension to use it.
-
-![Install Haskell Syntax Highlighting in VSCode](./img/InstallSyntaxHighlighting.png)
