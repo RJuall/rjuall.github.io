@@ -1,2 +1,2 @@
 # rjuall.github.io
-Robert Juall's Github Pages
+The Main Github Page for Robert Juall
