@@ -40,8 +40,8 @@
 
 - Go to the 'Extensions' view of VSCode
   - Please see [https://code.visualstudio.com/docs/editor/extension-marketplace](https://code.visualstudio.com/docs/editor/extension-marketplace) if there are questions about VSCode extension management.
-- Search for 'Haskell Syntax Highlighting' and Install this extension
-- Search for 'Code Runner' and Install this extension
+- Search for 'Haskell Syntax Highlighting' and Install this extension ([IMAGE](./img/InstallSyntaxHighlighting.png))
+- Search for 'Code Runner' and Install this extension ([IMAGE](./img/InstallCodeRunnerVSCode.png))
 
 ## The Final Checks
 
@@ -56,7 +56,7 @@ main = putStrLn "Hello World"
 ```
 
 - Right Click/Context Click and select 'Run Code'
-- A Terminal should appear and execute the above code with a return of "Hello World"
+- A Terminal should appear within VSCode and execute the `test.hs` file with a return of "Hello World"
 
 # Notes
 
