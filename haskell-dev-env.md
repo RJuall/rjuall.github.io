@@ -1,3 +1,6 @@
+---
+---
+
 # Installing a Basic Haskell Development Environment
 
 ## Installing Haskell Binaries
