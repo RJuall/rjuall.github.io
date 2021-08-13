@@ -2,8 +2,6 @@
 
 ## Installing Haskell Binaries
 
-### GHCUP
-
 - Navigate to [https://www.haskell.org/ghcup/](https://www.haskell.org/ghcup/)
 - Copy the Terminal command displayed 
   - The displayed command changes based on OS used to access the page.
@@ -18,17 +16,17 @@
     - (Linux) The tools `curl gcc make` need to be installed prior to running the `ghcup` installation command.
     - `Haskell Language Server` should not be installed.
     - `Stack` should not be installed.
-
 - **Pay attention to where the Haskell files are being installed!**
 
 ## Checking Binary Installation
 
 - Close and restart Powershell or Terminal
+- Execute the following commands:
   - Type and execute `ghc --version`.
   - Type and execute `cabal --version`.
   - Type and execute `ghci`.
-    - Try executing arithmetic in `ghci`.
-    - Type `:quit` to exit `ghci`.
+    - Try executing arithmetic in `ghci` (i.e. type `2 + 3` at the `ghci` prompt).
+    - Type `:quit` at the `ghci` prompt to exit `ghci`.
 - If the preceding commands functioned, skip to the next section
 - If the preceding commands did not function and `ghcup` succesfully installed, the binaries will have to be added to the PATH
 
@@ -62,10 +60,20 @@ main = putStrLn "Hello World"
 
 # Notes
 
-- Lorem
+- The Terminal in VSCode is the same as any other system Terminal and can run `ghc`, `cabal`, or `ghci`
+  - The VSCode Terminal can be accessed through View -> 'Terminal' or Terminal -> 'New Terminal'.
+  - The default location for a new VSCode terminal is the Open Folder or the 'Home' folder if no folder is open in VSCode.
 
 ## Optional
 
-- Lorem
+- The `Haskell` extension for VSCode provides a more IDE-like experience for Haskell development
+  - Not required for the Functional Programming course.
+  - The extension will download `Haskell Language Server` which is required for it to function.
+  - At the time of writing, the version of `ghc` needs to be < 9.0.0 for `Haskell Language Server` to work.
+  - I had a lot of problems getting this to work on Ubuntu Linux, so may not work for everyone.
+- The `haskell-linter` extension for VSCode provides guidance on how to properly format Haskell files
+  - The extension requires the `hlint` Haskell package to be installed.
+  - `hlint` can be installed through the `cabal` command.
+  - The `hlint` binary may have to be manually added to the PATH for the extension to use it.
 
 ![Install Haskell Syntax Highlighting in VSCode](./img/InstallSyntaxHighlighting.png)
