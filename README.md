@@ -8,4 +8,4 @@ description: Convenient Web Hosting is Convenient
 
 ## [rjuall.github.io](./index.md)
 
-## Instructions for a Basic [Haskell Development Environment](./haskell-dev-env.md)
+## Instructions for a Basic [Haskell Development Environment](./haskell-dev-env.html)

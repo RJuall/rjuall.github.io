@@ -6,4 +6,4 @@ description: Convenient Web Hosting is Convenient
 
 # RJuall's Github Pages
 
-## Instructions for a Basic [Haskell Development Environment](./haskell-dev-env.md)
+## Instructions for a Basic [Haskell Development Environment](./haskell-dev-env.html)
