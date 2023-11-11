@@ -7,6 +7,9 @@ collections:
   haskell:
     output: true
     permalink: /:name
+  xmas-list:
+    output: true
+    permalink: /:name
 
 defaults:
   -
@@ -15,4 +18,9 @@ defaults:
       path: _haskell
     values:
       is_haskell: true
+      layout: default
+    scope:
+      type: xmas-2023
+      path: _xmas-2023
+    values:
       layout: default
