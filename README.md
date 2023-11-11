@@ -6,7 +6,7 @@ description: Convenient Web Hosting is Convenient
 
 # RJuall's Github Pages
 
-## [rjuall.github.io](rjuall.github.io)
+## [rjuall.github.io](https://rjuall.github.io)
 
 ## Instructions for a Basic [Haskell Development Environment](rjuall.github.io/posts/haskell-dev-env.html)
 
